@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/admin-dashboard/static/css/main.e6c13ad2.css",
-    "main.js": "/admin-dashboard/static/js/main.b3195de7.js",
-    "static/js/453.63aef1d7.chunk.js": "/admin-dashboard/static/js/453.63aef1d7.chunk.js",
-    "index.html": "/admin-dashboard/index.html",
-    "main.e6c13ad2.css.map": "/admin-dashboard/static/css/main.e6c13ad2.css.map",
-    "main.b3195de7.js.map": "/admin-dashboard/static/js/main.b3195de7.js.map",
-    "453.63aef1d7.chunk.js.map": "/admin-dashboard/static/js/453.63aef1d7.chunk.js.map"
+    "main.css": "/admin-dashboard.github.io/static/css/main.e6c13ad2.css",
+    "main.js": "/admin-dashboard.github.io/static/js/main.ce71db87.js",
+    "static/js/453.63aef1d7.chunk.js": "/admin-dashboard.github.io/static/js/453.63aef1d7.chunk.js",
+    "index.html": "/admin-dashboard.github.io/index.html",
+    "main.e6c13ad2.css.map": "/admin-dashboard.github.io/static/css/main.e6c13ad2.css.map",
+    "main.ce71db87.js.map": "/admin-dashboard.github.io/static/js/main.ce71db87.js.map",
+    "453.63aef1d7.chunk.js.map": "/admin-dashboard.github.io/static/js/453.63aef1d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b3195de7.js"
+    "static/js/main.ce71db87.js"
   ]
 }
