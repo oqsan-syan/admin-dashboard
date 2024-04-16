@@ -1,25 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+
+import Login from 'pages/Login';
+import AdminDashboard from 'pages/AdminDashboard';
+import UsersList from 'pages/UsersList';
+
+import useAuth from 'utils/hooks/useAuth';
+import MainLayout from 'components/MainLayout';
 
 function App() {
+  useAuth();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path='/' element={<Login />} />
+
+      <Route
+        path='/dashboard'
+        element={
+          <MainLayout>
+            <AdminDashboard />
+          </MainLayout>
+        }
+      ></Route>
+      <Route
+        path='/users-list'
+        element={
+          <MainLayout>
+            <UsersList />
+          </MainLayout>
+        }
+      ></Route>
+    </Routes>
   );
 }
 
